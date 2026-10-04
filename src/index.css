@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dusk: #1b1740;
+  --color-road: #0f0d2a;
+  --color-mist: #f2eeff;
+  --color-amber: #ff9f4a;
+  --font-display: "Unbounded", sans-serif;
+  --font-body: "Manrope", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--color-dusk);
+  color: var(--color-mist);
+  font-family: var(--font-body);
+}
